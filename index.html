@@ -1,11 +1,98 @@
+
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Chefly</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .profile {
+            text-decoration: none;
+            color: black;
+            background: #eee;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .item {
+            text-decoration: none;
+            color: black;
+        }
+
+        .item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .item p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+    </style>
+</head>
 <body>
 
-<h1>Gilbert,Chase,Anthony</h1>
+<header>
+    <h1>Chefly</h1>
+    <a class="profile" href="profile.html">👤</a>
+</header>
 
+<div class="grid">
 
+    <a class="item" href="page1.html">
+        <img src="https://placehold.co/600x350?text=Recipe+1">
+        <p>Recipe One</p>
+    </a>
 
-  
+    <a class="item" href="page2.html">
+        <img src="https://placehold.co/600x350?text=Recipe+2">
+        <p>Recipe Two</p>
+    </a>
+
+    <a class="item" href="page3.html">
+        <img src="https://placehold.co/600x350?text=Recipe+3">
+        <p>Recipe Three</p>
+    </a>
+
+    <a class="item" href="page4.html">
+        <img src="https://placehold.co/600x350?text=Recipe+4">
+        <p>Recipe Four</p>
+    </a>
+
+    <a class="item" href="page5.html">
+        <img src="https://placehold.co/600x350?text=Recipe+5">
+        <p>Recipe Five</p>
+    </a>
+
+    <a class="item" href="page6.html">
+        <img src="https://placehold.co/600x350?text=Recipe+6">
+        <p>Recipe Six</p>
+    </a>
+
+</div>
+
 </body>
 </html>
