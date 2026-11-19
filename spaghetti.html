@@ -4,22 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spaghetti - Chefly</title>
+    <title>Spaghetti - David Davis</title>
     <style>
-        header { display: flex; align-items: center; border-bottom: 1px solid #ddd; }
-        .img { margin-top: 10px; width: 45%; border-radius: 20px; }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile {
+            text-decoration: none;
+            color: black;
+            background: #eee;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .img {
+            margin-top: 10px;
+            width: 45%;
+            height: 45%;
+            object-fit: cover;
+            border-radius: 20px;
+            border-bottom: 10px solid #bbb;
+            border-right: 10px solid #bbb;
+            
+        }
+        .h1 {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .p {
+            margin-top: 10px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
     </style>
 </head>
 <body>
 <header>
     <a href="index.html"><h1>⬅Chefly</h1></a>
+
+    <a class="profile" href="profile.html">👤</a>
 </header>
 
 <div style="display: flex; gap: 20px;">
     <img class="img" src="https://images.unsplash.com/photo-1551183053-bf91a1d81141">
     <div>
         <h1>Spaghetti</h1>
-        <p>A common pasta dish served with tomato sauce, ground beef, garlic, and parmesan cheese.</p>
+        <p>A common pasta dish served with tomato sauce, ground beef, garlic, and parmesan cheese.
+            <br><br>
+                Ingredients:
+                <ul>
+                <li>Spaghetti</li>
+                <li>Tomato Sauce</li>
+                <li>Beef Grounds</li>
+                <li>Garlic</li>
+                <li>Parmajaun Cheese</li>
+                </ul>
+        </p>
     </div>
 </div>
 </body>
